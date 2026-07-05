@@ -203,11 +203,11 @@ export default function App() {
       {/* Footer bar */}
       <footer className="bg-white border-t border-slate-100 py-6 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400 font-sans">
-          <p>© 2026 Mã Y Khoa Pro. Hệ thống được tinh chỉnh và giám sát bởi Bộ Y Tế Việt Nam.</p>
+          <p>© 2026 Mã Y Khoa Pro.</p>
           <div className="flex items-center gap-1">
             <span>Phát triển với sự tận tâm bởi</span>
             <Heart className="h-3.5 w-3.5 text-rose-500 fill-rose-500" />
-            <span className="font-semibold text-slate-500">Bác sĩ & Lập trình viên Việt Nam</span>
+            <span className="font-semibold text-slate-500">DSCKI.Nguyễn Thành Trung</span>
           </div>
         </div>
       </footer>
