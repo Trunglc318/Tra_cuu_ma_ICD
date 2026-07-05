@@ -1,0 +1,19 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/api/gemini/search"
+  to = "/.netlify/functions/gemini-search"
+  status = 200
+
+[[redirects]]
+  from = "/api/gemini/explain-code"
+  to = "/.netlify/functions/gemini-explain"
+  status = 200
+
+# Để React SPA hoạt động khi load lại trang hoặc nhập trực tiếp URL
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

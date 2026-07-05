@@ -1,0 +1,6 @@
+{
+  "name": "Tra cứu Mã Y khoa (TT 06 & QĐ 1849)",
+  "description": "Hệ thống tra cứu mã chuẩn y khoa, ICD-10, dịch vụ kỹ thuật và bệnh danh Y học cổ truyền theo Thông tư 06/2026/TT-BYT và Quyết định 1849/QĐ-BYT.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
